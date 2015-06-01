@@ -442,53 +442,74 @@ body{
 header{
 width: auto;
 height: 3.5em;
-background-color: #fff;
 padding: 5px 0 5px 0;
 }
 
-#logo{
-  text-align: left;
-  border: 0px;
-  margin-right: 12em;
-  height: 40px;
-}
-
 .nav{
+
+}
+
+.content{
+width:60rem;
+height:4.375rem;
+
+
+}
+
+.logo{
+  float:left;
+  border: 0px;
+  padding-left: 7em;
+  padding-top: 1em;
+}
+
+.top-navigation{
+  background-color: #fff;
+  height: 4.375rem;
   color: #4c5058;
-  text-align: center;
-  font-size: 1em;
+}
+
+.top-navigation > .content{
+  /* this makes the .content always centered within the .top-navigation */
+  margin:0 auto;
+  width:970px;
+  height:70px;
+}
+
+.links{
+  margin-top: 1.7rem;
+  margin-left: 1.563rem;
+  color:#838994;
+  list-style-type:none;
+  float:right;
+  font-size: 1.04rem;
 
 }
 
-.nav ul{
-  list-style-type: none;
+.links > li{
+  display: inline-block;
+  padding-right: 40px;
+
 }
 
-
-.nav li{
-  display:inline;
-  /*list-style-type: none;*/
-  margin-right: 2em;
-  color:#999;
-}
-
-.nav a:nth-child(1) {  
-  font-family: 'Roboto', sans-serif;
-  color: #4c5058;
-  font-weight: bold;
+nav li > a{
   text-decoration: none;
-
-} 
-
-.nav a{
-  text-decoration: none;
   color:#999;
+  }
 
-}
-.nav a:hover{
+nav > a:hover{
   color:#4c5058;
-
 }
+
+nav li:nth-child(1) a{
+color:#4c5058;
+font-weight: bold;
+}
+nav li:nth-child(1) a:hover{
+color:#999;
+font-weight: bold;
+}
+
 
 
 
