@@ -6,10 +6,20 @@
  *    user zoom.
  */
 
+
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased;.
+
 }
 
 /**
@@ -426,90 +436,88 @@ th {
   padding: 0;
 }
 
-/* end of the normalize */
+/* --- end of the normalize --- */
+
+
+
 
 body{
   background-color: LightGray;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   margin:0;
+  color: #838994; 
+letter-spacing: 0.03em;
 }
 
-/*div{
-  border:1px solid Chocolate;
-}*/
-
-header{
-width: auto;
-height: 3.5em;
-padding: 5px 0 5px 0;
+nav{
+  width: 100%;
+  height:4.375rem;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
-.nav{
 
+div{
+  border:0px solid Chocolate;
 }
 
-.content{
-width:60rem;
-height:4.375rem;
 
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
 
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-right: 6em; 
+    -webkit-font-smoothing: antialiased;
 }
 
 .logo{
   float:left;
   border: 0px;
-  padding-left: 7em;
-  padding-top: 1em;
-}
+ height: 70px;
+ margin-left: 6.35em;
 
-.top-navigation{
-  background-color: #fff;
-  height: 4.375rem;
-  color: #4c5058;
-}
-
-.top-navigation > .content{
-  /* this makes the .content always centered within the .top-navigation */
-  margin:0 auto;
-  width:970px;
-  height:70px;
-}
-
-.links{
-  margin-top: 1.7rem;
-  margin-left: 1.563rem;
-  color:#838994;
-  list-style-type:none;
-  float:right;
-  font-size: 1.04rem;
 
 }
 
-.links > li{
+.top-navigation .links > li{
   display: inline-block;
-  padding-right: 40px;
+  margin-left: 25px;
 
 }
 
-nav li > a{
+.top-navigation .links li > a{
   text-decoration: none;
   color:#999;
   }
 
-nav > a:hover{
+.top-navigation .links > a:hover{
   color:#4c5058;
 }
 
-nav li:nth-child(1) a{
+.top-navigation .links li:nth-child(1) a{
+/* This changes the color of the first link on the navigation */
 color:#4c5058;
-font-weight: bold;
-}
-nav li:nth-child(1) a:hover{
-color:#999;
-font-weight: bold;
+font-weight: 600;
 }
 
-
-
-
+.top-navigation .links li:nth-child(1) a:hover{
+/* This changes the hover color of the first link on the navigation */
+color:#333;
+cursor: pointer;
+font-weight: bold;
+}
