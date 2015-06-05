@@ -6,8 +6,7 @@
  *    user zoom.
  */
 
-
- html {
+html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -444,7 +443,7 @@ th {
 body{
   background-color: LightGray;
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 1emte;
   margin:0;
   color: #838994; 
 letter-spacing: 0.03em;
