@@ -446,7 +446,7 @@ body{
   font-size: 1emte;
   margin:0;
   color: #838994; 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 
 nav{
@@ -489,14 +489,11 @@ div{
   border: 0px;
  height: 70px;
  margin-left: 6.35em;
-
-
 }
 
 .top-navigation .links > li{
   display: inline-block;
   margin-left: 25px;
-
 }
 
 .top-navigation .links li > a{
@@ -520,3 +517,5 @@ color:#333;
 cursor: pointer;
 font-weight: bold;
 }
+
+.top-navigation .links li:first-child;
