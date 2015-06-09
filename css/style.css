@@ -442,7 +442,7 @@ th {
 
 body{
   background-color: LightGray;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   font-size: 1emte;
   margin:0;
   color: #838994; 
@@ -476,7 +476,7 @@ div{
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
+    /*ont-family: 'Roboto', sans-serif;*/
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -519,3 +519,34 @@ font-weight: bold;
 }
 
 .top-navigation .links li:first-child;
+
+
+/* end of navigation items */
+
+.first-text{
+
+  width:60rem;
+  height: auto;
+}
+
+.masthead
+.masthead-button {
+    /* font-family: 'Roboto', sans-serif;} */
+
+.masthead {
+  background: url(images/first-background.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.masthead >h1{
+  font-size:2em;
+  font-weight: 600;
+}
+
+.masthead >h2{
+
+
+}
