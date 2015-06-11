@@ -442,8 +442,8 @@ th {
 
 body{
   background-color: LightGray;
-  /*font-family: 'Roboto', sans-serif;*/
-  font-size: 1emte;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
   margin:0;
   color: #838994; 
   letter-spacing: 0.03em;
@@ -476,7 +476,7 @@ div{
 
 .top-navigation .links {
     float: right;
-    /*ont-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -523,30 +523,63 @@ font-weight: bold;
 
 /* end of navigation items */
 
-.first-text{
-
-  width:60rem;
-  height: auto;
-}
 
 .masthead
-.masthead-button {
-    /* font-family: 'Roboto', sans-serif;} */
+.button {
+    font-family: 'Roboto', sans-serif;
+
+  }
 
 .masthead {
-  background: url(images/first-background.jpg);
+  background: url(http://i.imgur.com/HPnOX9b.jpg);
   background-repeat:no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0 auto;
+  margin:auto;
+  height:auto;
+
 }
 
-.masthead >h1{
-  font-size:2em;
-  font-weight: 600;
+.introduction{
+  color: white;
+  padding: 10rem 20rem 10rem  20rem;
+  text-align: center;
 }
 
-.masthead >h2{
 
+.introduction >h1{
+  font-size:3.125em;
+  font-weight: 400;
+}
 
+.introduction>h2{
+font-size: 1.5em;
+font-weight: 300;
+}
+
+.button{
+background-color: #f15a29;
+color: white;
+width: 10em;
+height: 3em;
+margin: auto;
+border:2px #f15a29 solid;
+border-radius:4px;
+}
+
+.button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.button-text{
+padding: auto;
+text-align: center;
+
+}
+
+.button-text >a{
+  text-decoration: none;
+  color:white;
 }
