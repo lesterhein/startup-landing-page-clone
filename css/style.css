@@ -523,74 +523,57 @@ font-weight: bold;
 
 /* end of navigation items */
 
+/* introduction section */
 
-.masthead
-.button {
-    font-family: 'Roboto', sans-serif;
-
+.introduction .content h1,
+.introduction .content h2,
+{ 
+  font-weight: 300;
   }
 
-.masthead {
-  background: url(http://i.imgur.com/HPnOX9b.jpg);
+.introduction{
+  background-image: url('../images/first-background.jpg');
   background-repeat:no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   margin:auto;
-  height:auto;
+  height:45rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 
 }
 
-.introduction{
-  color: white;
+.introduction > .content{
   padding: 10rem 20rem 10rem  20rem;
   text-align: center;
+  overflow: auto;
+
 }
 
-
-.introduction >h1{
+.introduction > .content >h1{
   font-size:3.125em;
-  font-weight: 400;
-}
-
-.introduction>h2{
-font-size: 1.5em;
-font-weight: 300;
-}
-
-
-/*
-.button{
-background-color: #f15a29;
-color: white;
-width: 10em;
-height: 3em;
-margin: auto;
-border:2px #f15a29 solid;
-border-radius:4px;
-}
-
-.button:hover {
-    background-color: #d9400e;
-    border-color: #cf3d0e;
-    cursor: pointer;
-}
-
-.button-text{
-padding: auto;
-text-align: center;
+  font-weight: 300;
 
 }
 
-*/
+.introduction > .content >h2{
+  font-size: 1.5em;
+  font-weight: 300;
 
-.introduction-text >a{
-background-color: #f15a29;
-color: white;
-width: 10em;
-height: 3em;
-margin: auto;
-border:2px #f15a29 solid;
-border-radius:4px;
-text-decoration: none;
-color:white;
+} 
+
+button{
+  
+}
+.big-button{
+  color: white;
+  background-color: #f15a29;
+  width: 10em;
+  height: 3em;
+  display: inline-block;
+  margin-top: 15px;
+  border:2px #f15a29 solid;
+  border-radius:4px;
+  text-decoration: none;
+  padding:10px;
 }
