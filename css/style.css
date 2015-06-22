@@ -441,7 +441,7 @@ th {
 
 
 body{
-  background-color: LightGray;
+  /*  background-color: LightGray; */ 
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   margin:0;
@@ -457,17 +457,18 @@ nav{
 }
 
 
-div{
-  border:0px solid Chocolate;
+h1,
+h2,
+h3{
+  font-weight: 300;
 }
-
 
 /* Navigation Section */
 .top-navigation {
-    background-color: #fff;
+    background-color: white;
 }
 
-.top-navigation > .content {
+.content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -518,18 +519,10 @@ cursor: pointer;
 font-weight: bold;
 }
 
-.top-navigation .links li:first-child;
-
-
 /* end of navigation items */
 
 /* introduction section */
 
-.introduction .content h1,
-.introduction .content h2,
-{ 
-  font-weight: 300;
-  }
 
 .introduction{
   background-image: url('../images/first-background.jpg');
@@ -540,7 +533,7 @@ font-weight: bold;
   height:45rem;
   color: white;
   font-family: 'Roboto', sans-serif;
-
+  background-color: white;
 }
 
 .introduction .content{
@@ -552,13 +545,11 @@ font-weight: bold;
 
 .introduction .content h1{
   font-size:3.125em;
-  font-weight: 300;
 
 }
 
 .introduction .content h2{
   font-size: 1.5em;
-  font-weight: 300;
 
 } 
 
@@ -578,11 +569,86 @@ button{
   padding:10px;
 }
 
-.images{
-  text-align: center;
-  margin: 0 auto;
-  background-color:white;
-  display:block;
+/* This is the second section */
+
+.devices{
+background-color: white;
+margin-top: 7em;
+text-align: center;
 }
+
+.devices ul{
+  margin-top:-0.1em;
+}
+
+.devices > ul >li > img{
+  height:125px;
+  display:inline-block;
+  
+}
+
+.devices > ul >li {
+  display:inline-block;
+  margin-right: 6em;
+  width: auto;
+}
+
+.devices > h1{
+font-size: 3em; 
+color:#333;
+
+ }
+
+.devices > ul >li > h3{
+font-size: 1.5em;  
+width: 7em;
+font-weight: 400;
+color:#333;
+}
+
+/* end of the devices section */ 
+/* start of the footer section */
+
+
+
+.social hr {
+      border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem auto;
+    width: 70%
+    
+}
+
+
+.social .content > p{
+  text-align: center;
+  color:#333;
+  font-weight: 500;
+  font-size: 1.15em;
+
+}
+
+.social .content ul{
+  display: block;
+  margin: auto;
+  text-align:   center;
+}
+
+.twitter,
+.facebook,
+.instagram{
+  display: inline;
+  list-style: none;
+}
+
+.social .content .copyright{
+  color:#999;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+
 
 
