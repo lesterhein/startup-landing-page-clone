@@ -543,20 +543,20 @@ font-weight: bold;
 
 }
 
-.introduction > .content{
+.introduction .content{
   padding: 10rem 20rem 10rem  20rem;
   text-align: center;
   overflow: auto;
 
 }
 
-.introduction > .content >h1{
+.introduction .content h1{
   font-size:3.125em;
   font-weight: 300;
 
 }
 
-.introduction > .content >h2{
+.introduction .content h2{
   font-size: 1.5em;
   font-weight: 300;
 
@@ -577,3 +577,12 @@ button{
   text-decoration: none;
   padding:10px;
 }
+
+.images{
+  text-align: center;
+  margin: 0 auto;
+  background-color:white;
+  display:block;
+}
+
+
