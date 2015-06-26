@@ -466,6 +466,9 @@ h3{
 /* Navigation Section */
 .top-navigation {
     background-color: white;
+    position: fixed;
+width: 100%;
+z-index: 9999;
 }
 
 .content {
@@ -539,12 +542,13 @@ font-weight: bold;
 .introduction .content{
   padding: 10rem 20rem 10rem  20rem;
   text-align: center;
-  overflow: auto;
+
 
 }
 
 .introduction .content h1{
   font-size:3.125em;
+
 
 }
 
@@ -591,9 +595,10 @@ text-align: center;
   display:inline-block;
   margin-right: 6em;
   width: auto;
+
 }
 
-.devices > h1{
+.devices > h2{
 font-size: 3em; 
 color:#333;
 
