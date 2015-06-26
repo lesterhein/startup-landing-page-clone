@@ -574,12 +574,40 @@ button{
 }
 
 /* This is the second section */
+.devices-container{
+
+  text-align:center;
+  background-color: white;
+  margin-top: 7em;
+}
+
+.devices-container > h2{
+font-size: 3em; 
+color:#333;
+
+ }
 
 .devices{
-background-color: white;
-margin-top: 7em;
+    width:33%;
+    display: inline-block;
+    text-align: center;
+    /* styles to assist with debugging */
+}
+
+
+.devices > img{
+  height:120px;
+  width: auto;
+
+}
+.devices > h3{
+font-size: 1.5em;  
+font-weight: 400;
+color:#333;
 text-align: center;
 }
+
+/* list format css stuff not in use
 
 .devices ul{
   margin-top:-0.1em;
@@ -595,25 +623,14 @@ text-align: center;
   display:inline-block;
   margin-right: 6em;
   width: auto;
-
 }
+ */ 
 
-.devices > h2{
-font-size: 3em; 
-color:#333;
 
- }
 
-.devices > ul >li > h3{
-font-size: 1.5em;  
-width: 7em;
-font-weight: 400;
-color:#333;
-}
 
 /* end of the devices section */ 
 /* start of the footer section */
-
 
 
 .social hr {
